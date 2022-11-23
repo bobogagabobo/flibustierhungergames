@@ -1,2 +1,2 @@
 # flibustierhungergames
-Flibustier Hunger Games
+Ghouls and Ghosts
