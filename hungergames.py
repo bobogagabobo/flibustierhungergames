@@ -384,7 +384,11 @@ def pickRandomAction(tribute1, tribute2):
             print ("{} snares a squirrel for food.".format(t1))
 
     elif num == 33:
-        print ("{} punches a leaf".format(t1))
+        temp = random.randint(0,8)
+        if temp == 8:
+            print ("{} punches a leaf".format(t1))
+        else:
+            print ("{} punches a leaf. This angers the gods and they strike {} with lightning".format(t1, tribute1.himher))
     elif num == 34:
         print ("{} pisses in a bush".format(t1))
     elif num == 35:
